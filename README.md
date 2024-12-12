@@ -1,4 +1,4 @@
-# Joel Mondesir's Landing Page
+# The Landing Page
 
 This is a modern, responsive landing page built using React.js, showcasing sections like Home, About, Projects, and Contact. The site is fully styled and includes routing for navigation.
 
