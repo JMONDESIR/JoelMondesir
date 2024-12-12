@@ -8,7 +8,6 @@ This is a modern, responsive landing page built using React.js, showcasing secti
 - **React Router Integration:** Enables smooth navigation between pages.
 - **Custom Styling:** Beautifully styled components using CSS.
 - **Hover Effects:** Buttons and elements transition with eye-catching effects.
-- **Custom Logo:** Clicking the logo redirects to the home page.
 
 ## Technologies Used
 
