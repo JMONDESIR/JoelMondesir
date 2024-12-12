@@ -1,9 +1,13 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: .2vw;
+}
+
 body {
   margin: 0;
   padding: 0.8vw;
   box-sizing: border-box;
   background: linear-gradient(to left, #444446 0%, #1e1e1e 50%, #272727 100%);
-  font-family: "Montserrat", sans-serif;
 }
 
 .border-top {

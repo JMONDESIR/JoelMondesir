@@ -1,0 +1,10 @@
+.contact-container {
+  max-width: 35%;
+  margin-top: 1vw;
+  margin-left: 5vw;
+}
+
+.contact {
+  text-transform: uppercase;
+  color: goldenrod;
+}

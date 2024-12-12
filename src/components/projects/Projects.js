@@ -1,12 +1,7 @@
 import React from 'react';
 
-function Projects() {
-  return (
-    <div>
-      <h1>Coming soon...</h1>
-    </div>
-  );
+function Contact() {
+  return <h1>Coming soon...</h1>;
 }
 
-export default Projects;
-
+export default Contact;
