@@ -1,5 +1,6 @@
 import React from 'react';
 import Hero from '../hero/Hero';
+import Footer from '../footer/Footer';
 import './Home.css'
 
 function Home() {
