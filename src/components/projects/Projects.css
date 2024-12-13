@@ -1,0 +1,48 @@
+.projects-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.project-header {
+  text-transform: uppercase;
+  color: goldenrod;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 5rem;
+  margin-top: 2rem;
+}
+
+.project-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-description {
+  font-size: 1rem;
+  color: goldenrod;
+  margin-top: 1rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.project-screenshot {
+  width: 100%;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.project-screenshot:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.video-container {
+  width: 100%;
+}
