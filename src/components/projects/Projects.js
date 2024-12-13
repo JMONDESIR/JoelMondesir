@@ -29,7 +29,7 @@ function Projects() {
         </div>
 
         <div className="project-item">
-          <h2 className="project-header">SCR Wireless</h2>
+          <h2 className="project-header">SCRNCOM Wireless</h2>
           <a href="https://scrwireless.vercel.app/" target="_blank" rel="noopener noreferrer">
             <img
               src={Wireless}
@@ -43,7 +43,7 @@ function Projects() {
         </div>
 
         <div className="project-item">
-        <h2 className="project-header">SCRNCOM Wireless</h2>
+        <h2 className="project-header">SCR Network</h2>
 
           <a href="https://scrnetwork.com" target="_blank" rel="noopener noreferrer">
             <img
