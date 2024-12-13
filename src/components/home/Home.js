@@ -1,5 +1,6 @@
 import React from 'react';
 import Hero from '../hero/Hero';
+import { Link } from 'react-router-dom';
 import './Home.css'
 
 function Home() {
@@ -13,7 +14,9 @@ function Home() {
       <div className="subtitle">
         WEB DEVELOPER | RENAISSANCE MAN
       </div>
-      <button className="button-contact">CONTACT ME</button>
+      <Link to="/contact">
+          <button className="button-contact">CONTACT ME</button>
+        </Link>
 
     </div>
     </div>

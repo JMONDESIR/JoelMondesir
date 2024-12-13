@@ -20,7 +20,7 @@ function ContactForm() {
       <textarea id="message" name="message" />
       <ValidationError prefix="Message" field="message" errors={state.errors} />
 
-      <button type="submit" disabled={state.submitting}>
+      <button className="button-form" type="submit" disabled={state.submitting}>
         SUBMIT
       </button>
     </form>

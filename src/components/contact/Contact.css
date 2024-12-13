@@ -8,3 +8,42 @@
   text-transform: uppercase;
   color: goldenrod;
 }
+
+.icon-container {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  margin-top: 1.5rem;
+  justify-content: center; 
+}
+
+.icon-item {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  font-size: 5vw;
+}
+
+.icon-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+.icon {
+  font-size: 3rem;
+  color: #27aae1;
+  transition: color 0.3s ease;
+}
+
+.icon-item:hover .icon {
+  color: goldenrod;
+}
+
+.icon-item:hover span {
+  color: goldenrod;
+}
