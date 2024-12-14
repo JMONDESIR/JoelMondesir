@@ -1,19 +1,29 @@
 import React from 'react';
 import './About.css';
-import Dial from '../dial/Dial'
+import Progress from '../progress/Progress';
+import Joel from '../resources/head_II.jpeg'
 
 const About = () => {
   return (
+    <div>
     <section className="about-section">
       <div className="about-content">
-        <h1 className="about-title">Hi! I'm Joel Mondesir.</h1>
-        <p className="about-description">
-          I specialize in building interactive and engaging websites. 
-          My passion lies in creating eye-catching and dynamic user experiences that merge design and functionality...and even fun.
-        </p>
+        <div className="about-description">
+          <h1 className="about-title">Hi! I'm Joel Mondesir.</h1>
+          <p>
+            I build interactive and engaging websites. 
+            My passion lies in creating eye-catching and dynamic user experiences that merge design and functionality...and even fun.
+          </p>
+        </div>
 
+          <img src={Joel} alt="Joel Mondesir" className="about-image" />
+
+        
       </div>
     </section>
+    <Progress />
+
+    </div>
   );
 };
 

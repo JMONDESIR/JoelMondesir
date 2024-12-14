@@ -1,7 +1,6 @@
 import React from 'react';
 import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa';
 import Form from '../form/Form';
-import Cards from '../cards/OverlappingCards'
 import './Contact.css';
 import OverlappingCards from '../cards/OverlappingCards';
 
