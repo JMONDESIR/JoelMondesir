@@ -9,7 +9,7 @@ const OverlappingCards = () => {
       <div className="large-card">
         <img class="hero" src={Headshot} alt="Joel Mondesir" />
       </div>
-      <div className="small-card">Contant Me</div>
+      <div className="small-card">Contact Me</div>
     </div>
   );
 };
