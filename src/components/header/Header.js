@@ -1,12 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Header.css';
-import Logo from '../resources/jm_logo.png';
 
 function Header() {
+  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+
+  const toggleDrawer = () => {
+    setIsDrawerOpen(!isDrawerOpen);
+  };
+
   return (
     <header className="header">
-      <img src={Logo} alt="Your Logo" className="logo" />
-      <nav className="navbar">
+      
+      {/* Hamburger Icon */}
+      <div className="hamburger" onClick={toggleDrawer}>
+        <div className="bar"></div>
+        <div className="bar"></div>
+        <div className="bar"></div>
+      </div>
+
+      {/* Sliding Drawer */}
+      <nav className={`drawer ${isDrawerOpen ? 'open' : ''}`}>
         <ul>
           <li><a href="/">Home</a></li>
           <li><a href="/about">About</a></li>

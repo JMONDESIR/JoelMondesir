@@ -1,0 +1,38 @@
+.notfound-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  text-align: center;
+  color: #333;
+}
+
+.notfound-title {
+  font-size: 6rem;
+  font-weight: bold;
+  color: #27aae1;
+}
+
+.notfound-message {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  color: #555;
+}
+
+.notfound-link {
+  font-size: 1.2rem;
+  color: #27aae1;
+  text-decoration: none;
+  border: 1px solid #27aae1;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.notfound-link:hover {
+  background-color: goldenrod;
+  color: #fff;
+  border: 1px solid goldenrod;
+
+}
