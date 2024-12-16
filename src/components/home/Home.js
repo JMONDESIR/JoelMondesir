@@ -7,10 +7,9 @@ function Home() {
   return <div className="home-container">
     <Hero />
       <div className="text-container">
-      <h1>
-        <span className="first home-title">Joel</span> 
-        <span className="second home-title">Mondesir</span>
-      </h1>
+      <div className="home-title">
+        <h1>Joel <span className="last"> Mondesir</span></h1>
+      </div>
       <div className="subtitle">
       WEB DEVELOPER & RENAISSANCE MAN
       </div>

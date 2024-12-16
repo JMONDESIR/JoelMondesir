@@ -67,13 +67,23 @@ opacity: .8;
   margin: 0;
 }
 
-@media (max-width: 575px) {
+/* For large phones (576px to 767px) */
+@media (max-width: 767px) and (min-width: 576px) {
   .guage-container {
-    display: flex;
     justify-content: center;
     flex-direction: column;
     height: auto;
-    margin-top: 5vw;
-    gap: 10vw;
+    margin-top: 2vw;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  .guage-container {
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    margin-top: 2vw;
+    gap: 30px;
   }
 }
