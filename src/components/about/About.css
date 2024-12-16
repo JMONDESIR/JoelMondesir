@@ -12,21 +12,21 @@
   width: 100%;
 }
 
+.about-title {
+  font-size: 64px;
+  font-weight: bold;
+  color: goldenrod;
+  margin-bottom: 1.5vw;
+}
+
 .about-description {
   flex: 1;
   text-align: left;
   padding-right: 2vw;
 }
 
-.about-title {
-  font-size: 3vw;
-  font-weight: bold;
-  color: goldenrod;
-  margin-bottom: 1.5vw;
-}
-
 .about-description p {
-  font-size: 1.5vw;
+  font-size: 26px;
   color: #dddddd;
   line-height: 1.8;
 }
@@ -37,4 +37,33 @@
   border-radius: 50%; /* Circular shape */
   object-fit: cover; /* Ensures image fills the circle */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* For large desktops (1440px and up) */
+@media (min-width: 1440px) {
+
+}
+
+/* For desktops and laptops (1024px to 1439px) */
+@media (max-width: 1439px) and (min-width: 1024px) {
+
+}
+
+/* For tablets (768px to 1023px) */
+@media (max-width: 1023px) and (min-width: 768px) {
+
+}
+
+/* For large phones (576px to 767px) */
+@media (max-width: 767px) and (min-width: 576px) {
+
+}
+
+/* For small phones (up to 575px) */
+@media (max-width: 575px) {
+  .about-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
 }

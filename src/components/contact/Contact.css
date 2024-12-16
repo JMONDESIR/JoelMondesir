@@ -49,3 +49,16 @@
   text-transform: uppercase;
   color: goldenrod;
 }
+
+
+@media (max-width: 575px) {
+  .formPage-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    gap: 2vw;
+    padding: 20px;
+  }
+}

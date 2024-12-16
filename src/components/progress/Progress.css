@@ -66,3 +66,14 @@ opacity: .8;
   line-height: .6em;
   margin: 0;
 }
+
+@media (max-width: 575px) {
+  .guage-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    margin-top: 5vw;
+    gap: 10vw;
+  }
+}

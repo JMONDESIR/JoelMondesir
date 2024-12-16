@@ -62,3 +62,22 @@
     transform: translate(10%, 60%) rotate(5deg);
   }
 }
+
+@media (max-width: 575px) {
+  .cards-container {
+    height: 60vw;
+  }
+
+  .large-card {
+    width: 80%;
+    height: 25vw;
+    font-size: 4vw;
+  }
+
+  .small-card {
+    width: 70%;
+    height: 15vw;
+    font-size: 3vw;
+    transform: translate(10%, 60%) rotate(5deg);
+  }
+}

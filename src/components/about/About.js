@@ -5,14 +5,14 @@ import Joel from '../resources/head_II.jpeg'
 
 const About = () => {
   return (
-    <div>
+    <div className="about-container">
     <section className="about-section">
       <div className="about-content">
         <div className="about-description">
           <h1 className="about-title">Hi! I'm Joel Mondesir.</h1>
           <p>
             I build interactive and engaging websites. 
-            My passion lies in creating eye-catching and dynamic user experiences that merge design and functionality...and even fun.
+            My passion lies in creating eye-catching and dynamic user experiences that merge design with functionality...and even fun.
           </p>
         </div>
 
