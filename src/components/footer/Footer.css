@@ -15,3 +15,23 @@
   font-size: 14px;
   color: goldenrod;
 }
+
+@media (max-width: 767px) and (min-width: 576px) {
+  .quote {
+    font-size: 14px;
+  }
+  
+  .author {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 575px) {
+  .quote {
+    font-size: 12px;
+  }
+  
+  .author {
+    font-size: 10px;
+  }
+}
