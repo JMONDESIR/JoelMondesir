@@ -9,7 +9,7 @@ function Projects() {
     <div className="projects-container">
       <div className="projects-grid">
         <div className="project-item">
-        <h2 className="project-header">Velocity Strike</h2>
+        <h2 className="project-header">Stryker:Olympus Protocol</h2>
 
           <div className="video-container">
             <div style={{ padding: '56.25% 0 0 0', position: 'relative' }}>

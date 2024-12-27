@@ -1,7 +1,7 @@
 import React from 'react';
 import './About.css';
 import Progress from '../progress/Progress';
-import Joel from '../resources/head_II.jpeg'
+import Joel from '../resources/head_II.jpeg';
 
 const About = () => {
   return (
