@@ -5,7 +5,7 @@ import './Form.css';
 function ContactForm() {
   const [state, handleSubmit] = useForm("mrbgvdgr");
   if (state.succeeded) {
-      return <p className="response">Thanks you.</p>;
+      return <p className="response">Thank you.</p>;
   }
   return (
     <form onSubmit={handleSubmit}>
